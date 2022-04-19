@@ -3,6 +3,7 @@
 // grab DOM elements
 const showButton = document.getElementById('btn');
 const animal = document.getElementById('animalDiv');
+const animal = document.getElementById('animalPic');
 console.log(showButton, animal, 'Validate that we grabbed the elements');
 // set event listeners 
 showButton.addEventListener('click', () => {
