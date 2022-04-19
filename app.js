@@ -9,6 +9,7 @@ showButton.addEventListener('click', () => {
     console.log(' show button clicked', 'validate button is connected');
     animal.classList.remove('hidden');
 });
+.hidden{ display: none;};
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
