@@ -130,7 +130,7 @@ footer {
     width: 100%;
     bottom: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     box-shadow: var(--shadow);
     background-color: rgb(36, 37, 17);
     border-radius: 2px;
