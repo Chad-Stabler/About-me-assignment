@@ -29,7 +29,7 @@ body {
     --footer-height: 30px;
 
     font-family: 'Hubballi', cursive;;
-    background-color: var(--color2);
+    background-color: rgb(105, 109, 48);
 }
 
 #name {
@@ -37,6 +37,14 @@ body {
     color: rgb(136, 93, 36);
     font-family: italic;
     font-weight: bold;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#btn {
+    background-color: rgb(55, 23, 82);
+    border-radius: 4px;
+    border-color: rgb(105, 52, 148);
 }
 
 #animalPic {
@@ -51,10 +59,14 @@ body {
 #info {
     background-color: rgb(83, 36, 114);
     color: rgb(2, 124, 32);
+    border-radius: 5px;
+    padding: 0px 5px;
 }
 
 #intro {
     background-color: rgba(28, 85, 14, 0.562);
+    border-radius: 20px;
+    padding: 0px 10px;
 }
 
 main {
@@ -86,11 +98,19 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: rgba(215, 216, 200, 0.45);
+    border-radius: 3px;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+h1 {
+    background-color: rgba(199, 41, 41, 0.45);
+    border-radius: 4px;
+    padding: 2px 4px;
 }
 
 .gutter-right {
@@ -111,7 +131,8 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     box-shadow: var(--shadow);
+    background-color: rgb(36, 37, 17);
+    border-radius: 2px;
 }
 .hidden{ display: none;}
