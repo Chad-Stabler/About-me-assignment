@@ -3,15 +3,15 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(29, 100, 119);
+    --color2: rgb(182, 36, 36);
+    --color3: rgb(15, 4, 4);
+    --color4: rgb(117, 54, 117);
+    --color5: rgb(54, 97, 60);
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
-    --color1: hsla(349, 69%, 76%, 1);
+    --color1: rgb(109, 38, 156);
     --color2: hsla(207, 67%, 44%, 1);
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
@@ -30,6 +30,20 @@ body {
 
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
+}
+
+#name {
+    background-color: rgb(181, 127, 218);
+    color: rgb(136, 93, 36);
+}
+
+#info {
+    background-color: rgb(83, 36, 114);
+    color: rgb(2, 124, 32);
+}
+
+#intro {
+    background-color: rgba(28, 85, 14, 0.562);
 }
 
 main {
