@@ -35,6 +35,17 @@ body {
 #name {
     background-color: rgb(181, 127, 218);
     color: rgb(136, 93, 36);
+    font-family: italic;
+    font-weight: bold;
+}
+
+#animalPic {
+    margin-top: 15px;
+}
+
+#animalDiv {
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 #info {
@@ -47,7 +58,7 @@ body {
 }
 
 main {
-    position:  top 80px;
+    position:  relative top 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;

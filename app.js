@@ -8,8 +8,8 @@ console.log(showButton, animal, 'Validate that we grabbed the elements');
 // set event listeners 
 showButton.addEventListener('click', () => {
     console.log(' show button clicked', 'validate button is connected');
-    animal.classList.remove('hidden');
-    pic.classList.remove('hidden');
+    animal.classList.toggle('hidden');
+    pic.classList.toggle('hidden');
 });
 
     // get user input
