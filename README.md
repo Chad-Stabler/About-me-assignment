@@ -14,13 +14,19 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1. **Think about how to validate each of your features according to a Definition of Done**
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
-Additional considerations:
+--rubric wants
+-bio data(name, pronouns, residence, optional extra info)
+-Favorite animal data on button click
+-This README file completed with a plan on how you intend to geth there
+-Repo has multiple commits in the history
+-Link to Netlify for the about section
+-Work on a dev branch and submit pull link to canvas
+In body:
+A header tag to introduce myself by name, likely h1, within it's own header section
+under the introduction, start the main section, a paragraph element hosting the rest of my information to share
+under my info, a button hiding my favorite animal, also giving it the id=btn
+hidden under my button, a div tag containing my favorite animal with class=hidden and id=animalDiv, Try and fit a picture in an img tag as well with the same id and class as the div.
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+For coding my button event, create a const showButton and set it to document.getElementById('btn') to grab the button from the HTML file
+create a similar const for animal using the same document call for Id animalDiv
+showButton.addEventListener('click', () => {}) causes the event of the button push, inside I animal.classList.remove('hidden') to show my hidden content.

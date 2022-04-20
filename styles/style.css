@@ -3,25 +3,25 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color1: rgb(29, 100, 119);
+    --color2: rgb(182, 36, 36);
+    --color3: rgb(15, 4, 4);
+    --color4: rgb(117, 54, 117);
+    --color5: rgb(54, 97, 60);
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
-    /* --color1: hsla(349, 69%, 76%, 1);
+    --color1: rgb(109, 38, 156);
     --color2: hsla(207, 67%, 44%, 1);
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
+    --color5: hsla(170, 28%, 95%, 1);
 
-    /* --color1: hsla(45, 86%, 83%, 1);
+    --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+    --color5: hsla(224, 40%, 79%, 1);
 
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
@@ -29,10 +29,49 @@ body {
     --footer-height: 30px;
 
     font-family: 'Hubballi', cursive;;
-    background-color: var(--color2);
+    background-color: rgb(105, 109, 48);
+}
+
+#name {
+    background-color: rgb(181, 127, 218);
+    color: rgb(136, 93, 36);
+    font-family: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#btn {
+    background-color: rgb(55, 23, 82);
+    border-radius: 4px;
+    border-color: rgb(105, 52, 148);
+    color: rgb(105, 109, 48);
+}
+
+#animalPic {
+    margin-top: 15px;
+}
+
+#animalDiv {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#info {
+    background-color: rgb(83, 36, 114);
+    color: rgb(2, 124, 32);
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+#intro {
+    background-color: rgba(28, 85, 14, 0.562);
+    border-radius: 20px;
+    padding: 0px 10px;
 }
 
 main {
+    position:  relative top 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,15 +95,23 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: rgba(215, 216, 200, 0.45);
+    border-radius: 3px;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+h1 {
+    background-color: rgba(199, 41, 41, 0.45);
+    border-radius: 4px;
+    padding: 2px 4px;
 }
 
 .gutter-right {
@@ -84,7 +131,9 @@ footer {
     width: 100%;
     bottom: 0;
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: center;
     box-shadow: var(--shadow);
+    background-color: rgb(36, 37, 17);
+    border-radius: 2px;
 }
+.hidden{ display: none;}
